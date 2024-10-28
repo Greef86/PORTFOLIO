@@ -13,15 +13,15 @@ const About = () => {
 					<label htmlFor="">Introduction</label>
 				</div>
 				<div className='introduction-video-div'>
-					<video controls className='intro-video' src="https://res.cloudinary.com/dkb1di3bd/video/upload/v1730125244/intro_l55cgi.mp4"></video>
+					<video controls className='intro-video' src="https://res.cloudinary.com/dkb1di3bd/video/upload/v1730147173/frontend_rnr4mv.mp4"></video>
 					<label htmlFor="">Frontend</label>
 				</div>
 				<div className='introduction-video-div'>
-					<video controls className='intro-video' src="https://res.cloudinary.com/dkb1di3bd/video/upload/v1730125244/intro_l55cgi.mp4"></video>
+					<video controls className='intro-video' src="https://res.cloudinary.com/dkb1di3bd/video/upload/v1730147230/backend_n1nqo8.mp4"></video>
 					<label htmlFor="">Backend</label>
 				</div>
 				<div className='introduction-video-div'>
-					<video controls className='intro-video' src="https://res.cloudinary.com/dkb1di3bd/video/upload/v1730125244/intro_l55cgi.mp4"></video>
+					<video controls className='intro-video' src="https://res.cloudinary.com/dkb1di3bd/video/upload/v1730147282/api_vv6nyl.mp4"></video>
 					<label htmlFor="">API's</label>
 				</div>
 			</div>
