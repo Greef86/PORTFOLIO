@@ -1,0 +1,245 @@
+.projects {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1em 0 4em 0;
+	gap: 2em;
+}
+
+.projects-header {
+	color: rgb(130, 130, 130);
+}
+
+.projects-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1.5em;
+}
+
+.project {
+	width: 24em;
+	height: 30.5em;
+	border: 2px solid silver;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+	padding: 0.5em 1em;
+	border-radius: 10px;
+	transition: 0.3s;
+}
+
+.project a {
+	text-decoration: none;
+	color: rgb(130, 130, 130);
+}
+
+.project:hover {
+	transform: scale(1.05);
+	transition: 0.6s;
+}
+
+.para {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+}
+
+.project-img {
+	width: 100%;
+	margin: 0.5em 0;
+}
+
+/* FOR SMALL PHONES */
+@media (max-width: 1250px) {
+	.projects-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 0.8em;
+	}
+}
+
+/* FOR SMALL PHONES */
+@media (max-width: 1200px) {
+	.projects-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 2em;
+	}
+
+	.project {
+		width: 60%;
+		height: auto;
+		border: 2px solid silver;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5em;
+		padding: 0.5em 1em;
+		border-radius: 10px;
+		transition: 0.3s;
+	}
+}
+
+@media (max-width: 1100px) {
+	.projects-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 2em;
+	}
+
+	.project {
+		width: 70%;
+		height: auto;
+		border: 2px solid silver;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5em;
+		padding: 0.5em 1em;
+		border-radius: 10px;
+		transition: 0.3s;
+	}
+}
+
+/* FOR SMALL PHONES */
+@media (max-width: 950px) {
+	.projects-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 2em;
+	}
+
+	.project {
+		width: 80%;
+		height: auto;
+		border: 2px solid silver;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5em;
+		padding: 0.5em 1em;
+		border-radius: 10px;
+		transition: 0.3s;
+	}
+}
+
+/* FOR SMALL PHONES */
+@media (max-width: 850px) {
+	.projects-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 2em;
+	}
+
+	.project {
+		width: 80%;
+		height: auto;
+		border: 2px solid silver;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5em;
+		padding: 0.5em 1em;
+		border-radius: 10px;
+		transition: 0.3s;
+	}
+}
+
+/* FOR SMALL PHONES */
+@media (max-width: 750px) {
+	.projects-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 2em;
+	}
+
+	.project {
+		width: 90%;
+		height: auto;
+		border: 2px solid silver;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5em;
+		padding: 0.5em 1em;
+		border-radius: 10px;
+		transition: 0.3s;
+	}
+}
+
+/* FOR SMALL PHONES */
+@media (max-width: 650px) {
+	.projects-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 2em;
+	}
+
+	.project {
+		width: 90%;
+		height: auto;
+		border: 2px solid silver;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5em;
+		padding: 0.5em 1em;
+		border-radius: 10px;
+		transition: 0.3s;
+	}
+}
+
+/* FOR SMALL PHONES */
+@media (max-width: 550px) {
+	.projects-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 2em;
+	}
+
+	.project {
+		width: 90%;
+		height: auto;
+		border: 2px solid silver;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5em;
+		padding: 0.5em 1em;
+		border-radius: 10px;
+		transition: 0.3s;
+	}
+}
+
+/* FOR SMALL PHONES */
+@media (max-width: 450px) {
+	.projects-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 1.5em;
+	}
+
+	.project {
+		width: 90%;
+		height: auto;
+		border: 2px solid silver;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5em;
+		padding: 0.5em 1em;
+		border-radius: 10px;
+		transition: 0.3s;
+	}
+}
