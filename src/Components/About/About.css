@@ -79,15 +79,19 @@
 }
 
 .expressjs-bar {
-	width: 70%;
+	width: 80%;
 }
 
 .nodejs-bar {
-	width: 70%;
+	width: 80%;
 }
 
 .mongodb-bar {
 	width: 70%;
+}
+
+.sql-bar{
+	width: 60%;
 }
 
 .socketio-bar {
@@ -95,7 +99,7 @@
 }
 
 .github-bar {
-	width: 60%;
+	width: 68%;
 }
 
 .json-bar {

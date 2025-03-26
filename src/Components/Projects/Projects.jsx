@@ -3,6 +3,7 @@ import "./Projects.css"
 import onlineShop from "../../assets/onlineshop.jpg"
 import school from "../../assets/school.jpg"
 import utility from "../../assets/utility.jpg"
+import eskom from "../../assets/eskom.jpeg"
 
 const Projects = () => {
 	return (
@@ -16,6 +17,17 @@ const Projects = () => {
 						<div className="para">
 							<p>This is an online clothing store that I am currently building for my cousin who has a clothing company, in this website I am using the logo of my newly formed and unregistered tech company called <strong>GreefTechnologies</strong>.</p>
 							<p>I am using <strong>ReactJS</strong> and plain <strong>CSS</strong> for frontend, <strong>ExpressJS</strong> and <strong>NodeJS</strong> for backend and <strong>MongoDB</strong> is the database, I have used the <strong>Context API</strong> to maintain the global state throughout all components and avoid prop drilling, I have also used <strong>Json Web Token (jwt)</strong> to control authorization throughout the website.</p>
+						</div>
+					</a>
+				</div>
+				<div className="project">
+					<a href="https://eskom-loadshedding.netlify.app/" target='blank'>
+						<h2>Eskom Loadshedding Schedule</h2>
+						<img className='project-img' src={eskom} alt="" />
+						<div className="para">
+							  <p>This is a website that shows the dates and times that Eskom will cut electricity supply across the country.</p>
+							  <p>I created this website using external API directly from Eskom in <strong>JSON</strong> format but there was a time where I had to <strong>web scrap</strong> the data because it was presented in <strong>HTML</strong> format.</p>
+							  <p>I am using <strong>ReactJS</strong> and plain <strong>CSS</strong> for frontend, <strong>ExpressJS</strong> and <strong>NodeJS</strong> for backend.</p>	
 						</div>
 					</a>
 				</div>

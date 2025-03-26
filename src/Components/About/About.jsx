@@ -56,19 +56,25 @@ const About = () => {
 					<div className="html">
 						<p>ExpressJS</p>
 						<div className="html-bar-div">
-							<div className="expressjs-bar bar">70%</div>
+							<div className="expressjs-bar bar">80%</div>
 						</div>
 					</div>
 					<div className="html">
 						<p>NodeJS</p>
 						<div className="html-bar-div">
-							<div className="nodejs-bar bar">70%</div>
+							<div className="nodejs-bar bar">80%</div>
 						</div>
 					</div>
 					<div className="html">
 						<p>MongoDB</p>
 						<div className="html-bar-div">
 							<div className="mongodb-bar bar">70%</div>
+						</div>
+					</div>
+					<div className="html">
+						<p>SQL</p>
+						<div className="html-bar-div">
+							<div className="sql-bar bar">60%</div>
 						</div>
 					</div>
 					<div className="html">
@@ -80,7 +86,7 @@ const About = () => {
 					<div className="html">
 						<p>Github</p>
 						<div className="html-bar-div">
-							<div className="github-bar bar">60%</div>
+							<div className="github-bar bar">68%</div>
 						</div>
 					</div>
 					<div className="html">
