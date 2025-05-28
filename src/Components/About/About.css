@@ -300,6 +300,10 @@
 
 /* FOR SMALL PHONES */
 @media (max-width: 750px) {
+	.asp{
+		font-size: 0.8rem;
+	}
+
 	.divs {
 		display: flex;
 		flex-direction: column;

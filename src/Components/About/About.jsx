@@ -74,7 +74,7 @@ const About = () => {
 						</div>
 					</div>
 					<div className="html">
-						<p>ASP.NET Core</p>
+						<p className='asp'>ASP.NET Core</p>
 						<div className="html-bar-div">
 							<div className="asp-net bar">75%</div>
 						</div>
