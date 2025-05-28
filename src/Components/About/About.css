@@ -50,7 +50,7 @@
 	background-color: white;
 	width: 80%;
 	text-align: right;
-	height: 2em;
+	height: 1.6em;
 	border: 0.6px solid white;
 }
 
@@ -87,23 +87,39 @@
 }
 
 .mongodb-bar {
-	width: 70%;
+	width: 80%;
 }
 
 .sql-bar{
+	width: 75%;
+}
+
+.asp-net {
+	width: 75%;
+}
+
+.angular-bar {
+	width: 80%;
+}
+
+.cs-bar {
+	width: 80%;
+}
+
+.typescript-bar{
+	width: 75%;
+}
+
+.jquery-bar{
+	width: 75%;
+}
+
+.aws-bar{
 	width: 60%;
 }
 
-.socketio-bar {
-	width: 65%;
-}
-
-.github-bar {
-	width: 68%;
-}
-
-.json-bar {
-	width: 80%;
+.azure-bar{
+	width: 60%;
 }
 
 .progress-bar {
@@ -234,7 +250,7 @@
 		background-color: white;
 		width: 70%;
 		text-align: right;
-		height: 2em;
+		height: 1.6em;
 		border: 0.6px solid white;
 	}
 
@@ -269,7 +285,7 @@
 		background-color: white;
 		width: 70%;
 		text-align: right;
-		height: 2em;
+		height: 1.6em;
 		border: 0.6px solid white;
 	}
 

@@ -4,6 +4,7 @@ import onlineShop from "../../assets/onlineshop.jpg"
 import school from "../../assets/school.jpg"
 import utility from "../../assets/utility.jpg"
 import eskom from "../../assets/eskom.jpeg"
+import downloadpdf from "../../assets/downloadpdf.png"
 
 const Projects = () => {
 	return (
@@ -28,6 +29,16 @@ const Projects = () => {
 							  <p>This is a website that shows the dates and times that Eskom will cut electricity supply across the country.</p>
 							  <p>I created this website using external API directly from Eskom in <strong>JSON</strong> format but there was a time where I had to <strong>web scrap</strong> the data because it was presented in <strong>HTML</strong> format.</p>
 							  <p>I am using <strong>ReactJS</strong> and plain <strong>CSS</strong> for frontend, <strong>ExpressJS</strong> and <strong>NodeJS</strong> for backend.</p>	
+						</div>
+					</a>
+				</div>
+				<div className="project">
+					<a href="https://resume-cv-download.netlify.app/" target='blank'>
+						<h2>You create a resume online and download a .pdf file</h2>
+						<img className='project-img' src={downloadpdf} alt="" />
+						<div className="para">
+							<p>In this website I built a scalable resume generator that will download a pdf file when finished, I used browser cookies that expires in 3 months so that you won't have to rewrite the whole resume when you want to update it.</p>
+							<p>I am using <strong>ReactJS</strong> and plain <strong>CSS</strong> for frontend, <strong>ExpressJS</strong>, <strong>PDFKIT</strong> and <strong>NodeJS</strong> for backend.</p>
 						</div>
 					</a>
 				</div>

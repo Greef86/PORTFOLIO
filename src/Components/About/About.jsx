@@ -9,16 +9,12 @@ const About = () => {
 			<h2 style={{ textAlign: "center", textDecoration: "underline", color: "silver" }}>Introduction Videos</h2>
 			<div className="intro-content-videos">
 				<div className='introduction-video-div'>
-					<video controls className='intro-video' src="https://res.cloudinary.com/dkb1di3bd/video/upload/v1730125244/intro_l55cgi.mp4"></video>
+					<video controls className='intro-video' src="https://res.cloudinary.com/dkb1di3bd/video/upload/v1748464972/20250528_220646_rqqqti.mp4"></video>
 					<label htmlFor="">Introduction</label>
 				</div>
 				<div className='introduction-video-div'>
-					<video controls className='intro-video' src="https://res.cloudinary.com/dkb1di3bd/video/upload/v1730147173/frontend_rnr4mv.mp4"></video>
-					<label htmlFor="">Frontend</label>
-				</div>
-				<div className='introduction-video-div'>
-					<video controls className='intro-video' src="https://res.cloudinary.com/dkb1di3bd/video/upload/v1730147230/backend_n1nqo8.mp4"></video>
-					<label htmlFor="">Backend</label>
+					<video controls className='intro-video' src="https://res.cloudinary.com/dkb1di3bd/video/upload/v1748465798/20250528_220920_bwwqf9.mp4"></video>
+					<label htmlFor="">TechStack</label>
 				</div>
 				<div className='introduction-video-div'>
 					<video controls className='intro-video' src="https://res.cloudinary.com/dkb1di3bd/video/upload/v1730147282/api_vv6nyl.mp4"></video>
@@ -68,31 +64,55 @@ const About = () => {
 					<div className="html">
 						<p>MongoDB</p>
 						<div className="html-bar-div">
-							<div className="mongodb-bar bar">70%</div>
+							<div className="mongodb-bar bar">80%</div>
 						</div>
 					</div>
 					<div className="html">
 						<p>SQL</p>
 						<div className="html-bar-div">
-							<div className="sql-bar bar">60%</div>
+							<div className="sql-bar bar">75%</div>
 						</div>
 					</div>
 					<div className="html">
-						<p>Socket.io</p>
+						<p>ASP.NET Core</p>
 						<div className="html-bar-div">
-							<div className="socketio-bar bar">65%</div>
+							<div className="asp-net bar">75%</div>
 						</div>
 					</div>
 					<div className="html">
-						<p>Github</p>
+						<p>C#</p>
 						<div className="html-bar-div">
-							<div className="github-bar bar">68%</div>
+							<div className="cs-bar bar">80%</div>
 						</div>
 					</div>
 					<div className="html">
-						<p>JSON</p>
+						<p>Angular</p>
 						<div className="html-bar-div">
-							<div className="json-bar bar">80%</div>
+							<div className="angular-bar bar">80%</div>
+						</div>
+					</div>
+					<div className="html">
+						<p>TypeScript</p>
+						<div className="html-bar-div">
+							<div className="typescript-bar bar">75%</div>
+						</div>
+					</div>
+					<div className="html">
+						<p>JQuery</p>
+						<div className="html-bar-div">
+							<div className="jquery-bar bar">75%</div>
+						</div>
+					</div>
+					<div className="html">
+						<p>AWS</p>
+						<div className="html-bar-div">
+							<div className="aws-bar bar">60%</div>
+						</div>
+					</div>
+					<div className="html">
+						<p>Azure</p>
+						<div className="html-bar-div">
+							<div className="azure-bar bar">60%</div>
 						</div>
 					</div>
 				</div>
