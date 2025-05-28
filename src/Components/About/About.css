@@ -266,6 +266,10 @@
 /* FOR SMALL PHONES */
 @media (max-width: 850px) {
 
+	.asp{
+		font-size: 0.8rem;
+	}
+
 	.about-me {
 		padding: 1em 1em 4em 1em;
 	}
@@ -300,9 +304,6 @@
 
 /* FOR SMALL PHONES */
 @media (max-width: 750px) {
-	.asp{
-		font-size: 0.8rem;
-	}
 
 	.divs {
 		display: flex;
