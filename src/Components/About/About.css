@@ -50,7 +50,7 @@
 	background-color: white;
 	width: 80%;
 	text-align: right;
-	height: 1.6em;
+	height: 1.5em;
 	border: 0.6px solid white;
 }
 
@@ -122,6 +122,14 @@
 	width: 60%;
 }
 
+.java-bar{
+	width: 80%;
+}
+
+.spring-bar{
+	width: 75%;
+}
+
 .progress-bar {
 	width: 50%;
 	display: flex;
@@ -180,7 +188,7 @@
 		background-color: white;
 		width: 70%;
 		text-align: right;
-		height: 2em;
+		height: 1.9em;
 		border: 0.6px solid white;
 	}
 
@@ -215,7 +223,7 @@
 		background-color: white;
 		width: 70%;
 		text-align: right;
-		height: 2em;
+		height: 1.7em;
 		border: 0.6px solid white;
 	}
 
@@ -250,7 +258,7 @@
 		background-color: white;
 		width: 70%;
 		text-align: right;
-		height: 1.6em;
+		height: 1.5em;
 		border: 0.6px solid white;
 	}
 
@@ -285,8 +293,8 @@
 		background-color: white;
 		width: 70%;
 		text-align: right;
-		height: 1.6em;
-		border: 0.6px solid white;
+		height: 1.3em;
+		border: 0.5px solid white;
 	}
 
 	.progress-bar {

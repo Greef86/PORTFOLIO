@@ -38,6 +38,18 @@ const About = () => {
 						</div>
 					</div>
 					<div className="html">
+						<p>Java</p>
+						<div className="html-bar-div">
+							<div className="java-bar bar">80%</div>
+						</div>
+					</div>
+					<div className="html">
+						<p>Spring</p>
+						<div className="html-bar-div">
+							<div className="spring-bar bar">75%</div>
+						</div>
+					</div>
+					<div className="html">
 						<p>JavaScript</p>
 						<div className="html-bar-div">
 							<div className="javascript-bar bar">80%</div>

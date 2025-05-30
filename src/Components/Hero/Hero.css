@@ -6,7 +6,8 @@
 	gap: 1em;
 }
 
-.hero h1,
+.hero h1, 
+.hero h2,
 .hero p {
 	color: rgb(130, 130, 130);
 }
